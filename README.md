@@ -7,3 +7,5 @@ build this project.
 You can access the website by clicking this link -->https://rajesh2199.github.io/Weather-Forecast/
 
 Screenshot of the website is displayed below.
+
+<img width="2048" alt="Screen Shot 2020-07-02 at 10 26 22 PM" src="https://user-images.githubusercontent.com/61152071/86431836-16729f80-bcb3-11ea-9d6f-771b177ca8e1.png">
