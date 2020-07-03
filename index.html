@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link   href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<div class="image">
+    <div class="header">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <div class="form">
+        <h2>Search for a City:</h2>
+        <input type="text" class="city" id="search"></input>
+        <button  data-search="search" id="search.btn">Search</button>
+        <div id="city" class="history">
+            Search history.
+        </div>
+
+        
+
+    </div>
+
+    <div id="forecastdisplay">
+        <div class="city"></div>
+        <div class="date"></div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+        <div class="temp"></div>
+        <div class="uvindex">UV Index:</div>
+
+        
+    </div>
+
+    <div id="fiveday">
+        <div class="day1">Day-1
+            <div class="date1"></div>
+            <div class="wind1"></div>
+            <div class="humidity1"></div>
+            <div class="temp1"></div>
+
+             </div>
+
+        <div class="day2">Day-2
+            <div class="date2"></div>
+            <div class="wind2"></div>
+            <div class="humidity2"></div>
+            <div class="temp2"></div>
+         </div>
+
+        <div class="day3">Day-3 
+            <div class="date3"></div>
+            <div class="wind3"></div>
+            <div class="humidity3"></div>
+            <div class="temp3"></div>
+
+        </div>
+        
+        <div class="day4">Day-4 
+            <div class="date4"></div>
+            <div class="wind4"></div>
+            <div class="humidity4"></div>
+            <div class="temp4"></div>
+
+        </div>
+
+        <div class="day5">Day-5 
+            <div class="date5"></div>
+            <div class="wind5"></div>
+            <div class="humidity5"></div>
+            <div class="temp5"></div>
+
+        </div>
+        
+        
+        
+    </div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</div>
+</body>
+<script src="weather.js"></script>
+<script src="storage.js"></script>
+
+</html>

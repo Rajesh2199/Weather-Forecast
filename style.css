@@ -1,0 +1,125 @@
+
+body{
+    background-image: url("image.jpg");
+    max-width: 100%;
+    max-height: 50%;
+}
+
+
+.header {
+    font-size: 25px;
+    text-align: center;
+    background-color: gray;
+    color:white;
+    margin-top:-35px;
+}
+
+.form {
+    font-size: 15px;
+    
+}
+
+#search {
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+}
+
+#search.btn{
+height: 200px;
+}
+
+#city{
+    font-family: 'Times New Roman', Times, serif;
+    border-style: groove;
+    width: 10%;
+    margin-top: 10px;
+    
+}
+
+#forecastdisplay {
+    
+    margin:auto;
+    margin-top: -200px;
+    width: 60%;
+    text-align: center;
+    padding:138px;
+ 
+
+}
+
+#fiveday{
+    
+    margin-top: 40px;
+    text-align: center;
+    padding: 140px;
+
+}
+
+.city {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.date{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.wind{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.humidity{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.temp{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.uvindex{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.day1{
+    float: left;
+    margin: auto;
+    width: 300px;
+    background-color:lightskyblue ;
+}
+
+.day2{
+    float:left;
+    width: 300px;
+    background-color:lightgray ;
+    
+}
+
+.day3{
+    float:left;
+    width: 300px;
+    background-color:lightseagreen;
+}
+
+.day4{
+    float:left;
+    width: 300px;
+    background-color:whitesmoke ;
+}
+
+.day5{
+    float:left;
+    width: 300px;
+    background-color:lightgoldenrodyellow ;
+}
+
